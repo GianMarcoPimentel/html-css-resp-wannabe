@@ -128,7 +128,9 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- @media screen and (max-width
- ) {
-    
- }
+ /* cambiamenti nella visualizzazione su uno schermo di larghezza massima 780px */
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+}
